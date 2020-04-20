@@ -1,5 +1,5 @@
 server:
-  port: 8801
+  port: 7005
 spring:
   application:
     name: springcloud-zuul
@@ -8,7 +8,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://admin:admin@localhost:8090/eureka
+      defaultZone: http://admin:admin@localhost:7000/eureka
 #springboot-feign
 zuul:
   routes: #给服务配置路由
